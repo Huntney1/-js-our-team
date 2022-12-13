@@ -1,13 +1,13 @@
 //variabili
 
 let container = document.getElementById('container');
-let persona, div, teams;
+let persona, div, utenteTeams;
 
 
 function creaDiv(){
     div = document.createElement('div');
     div.classList.add('card');
-    div.innerHTML = `<p>${teams.nome}<br>${teams.role}</p> <img src="./img/${teams.image}">`;
+    div.innerHTML = `<p>${utenteTeams.nome}<br>${utenteTeams.role}</p> <img src="./img/${utenteTeams.image}">`;
     return div;
 }
 
@@ -48,10 +48,10 @@ let team = [{
 for(let i = 0; i<team.length; i++){
 
     //stampa console
-    teams = team[i];
-    console.log(teams);
+    utenteTeams = team[i];
+    console.log(utenteTeams);
     //stampa dom
-    creaDiv(teams);
+    creaDiv(utenteTeams);
     container.appendChild(div);
 
 }
