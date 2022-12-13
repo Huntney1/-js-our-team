@@ -5,10 +5,18 @@
 
 }
 
-.container{
+#container{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 img{
     width: 100px;
+}
+
+.card{
+
 }
