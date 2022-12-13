@@ -7,7 +7,7 @@ let div, utenteTeams;
 function creaDiv(){
     div = document.createElement('div');
     div.classList.add('card');
-    div.innerHTML = `<p>${utenteTeams.nome}<br>${utenteTeams.role}</p> <img src="./img/${utenteTeams.image}">`;
+    div.innerHTML = `<img src="./img/${utenteTeams.image}"> <p>${utenteTeams.nome}<br>${utenteTeams.role}</p> `;
     return div;
 }
 
