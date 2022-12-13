@@ -1,7 +1,7 @@
 //variabili
 
 let container = document.getElementById('container');
-let persona, div, utenteTeams;
+let div, utenteTeams;
 
 
 function creaDiv(){
