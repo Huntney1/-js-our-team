@@ -3,7 +3,6 @@
 let container = document.getElementById('container');
 let div, utenteTeams;
 
-
 function creaDiv(){
     div = document.createElement('div');
     div.classList.add('card');
@@ -55,3 +54,4 @@ for(let i = 0; i<team.length; i++){
     container.appendChild(div);
 
 }
+
