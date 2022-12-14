@@ -1,14 +1,4 @@
-//variabili
 
-let container = document.getElementById('container');
-let div, utenteTeams;
-
-function creaDiv(){
-    div = document.createElement('div');
-    div.classList.add('card');
-    div.innerHTML = `<img src="./img/${utenteTeams.image}"> <p>${utenteTeams.nome}<br>${utenteTeams.role}</p> `;
-    return div;
-}
 
 //oggetto
 
@@ -43,6 +33,18 @@ let team = [{
     image: "barbara-ramos-graphic-designer.jpg",
 }
 ]
+
+//variabili
+
+let container = document.getElementById('container');
+let div, utenteTeams;
+
+function creaDiv(){
+    div = document.createElement('div');
+    div.classList.add('card');
+    div.innerHTML = `<img src="./img/${utenteTeams.image}"> <p>${utenteTeams.nome}<br>${utenteTeams.role}</p> `;
+    return div;
+}
 
 for(let i = 0; i<team.length; i++){
 
